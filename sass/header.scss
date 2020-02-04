@@ -1,0 +1,22 @@
+.head{
+   width: 100%;
+   height: 720px;
+
+   .headBanner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+    background: linear-gradient(
+    to bottom,
+    rgba(01,0,0, 0),
+    rgba(2,59,119, 100)
+  ),url("../images/lowes_dt.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+}

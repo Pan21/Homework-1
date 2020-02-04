@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  background-color: #023b77;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px; }
+
+.head {
+  width: 100%;
+  height: 720px; }
+  .head .headBanner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, rgba(1, 0, 0, 0), #023b77), url("../images/lowes_dt.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.leadContent {
+  margin: 0 auto;
+  max-width: 100%;
+  height: 820px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 250px;
+  background: white;
+  background: linear-gradient(0deg, white 85%, #023b77 100%); }
+  .leadContent h1 {
+    font-size: 80px;
+    color: black; }
+  .leadContent .gallery {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 820px; }
+
+.endContent {
+  margin: 0 auto;
+  max-width: 100%;
+  height: 1020px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  background: linear-gradient(180deg, white 85%, #023b77 100%); }
+  .endContent h1 {
+    color: black;
+    font-size: 50px; }
+  .endContent .txtContent {
+    width: 80%;
+    color: black;
+    flex-direction: row;
+    display: flex;
+    justify-content: center; }
+    .endContent .txtContent p {
+      flex-direction: row;
+      width: 600px;
+      padding: 25px; }

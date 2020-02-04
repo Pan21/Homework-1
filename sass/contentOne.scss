@@ -1,0 +1,30 @@
+.leadContent{
+    margin: 0 auto;
+    max-width: 100%;
+    height: 820px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 250px;
+
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 85%, rgba(2,59,119,1) 100%);
+
+
+    h1{
+        font-size: 80px;
+        color: black;
+    }
+
+
+    .gallery{
+        padding-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 820px;
+        //flex-direction: row;
+    }
+}
